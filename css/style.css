@@ -1,0 +1,107 @@
+/* ----- body etc ----- */
+body {
+  /* width: 1280px; */
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----- header -----  */
+header img {
+  width: 300px;
+}
+
+nav {
+  background-color: #000;
+  padding: 16px 0;
+  margin-top: 12px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 56px;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+}
+
+/* ----- main -----  */
+main {
+  display: flex;
+  width: 100%;
+}
+
+/* ----- left -----  */
+.left {
+  width: 70%;
+}
+
+.left h1 {
+  border-left: 4px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.article_kv-img {
+  width: 100%;
+}
+
+.article_thumb-container {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.article_thumb-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 176px);
+  justify-content: center;
+  align-items: center;
+  gap: 28px 32px;
+  padding: 28px 32px;
+}
+
+.article_thumb {
+  text-align: center;
+}
+
+.article_thumb p {
+  margin: 0;
+}
+
+.article_thumb img {
+  width: 100%;
+}
+
+/* ----- right -----  */
+.right {
+  width: 30%;
+  margin-left: 24px;
+}
+
+.right h2 {
+  border-bottom: 1px solid black;
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+
+.right p {
+  margin: 12px 0 12px 20px;
+}
+
+/* ----- footer -----  */
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 32px;
+}
+
+footer p {
+  margin: 0;
+}
